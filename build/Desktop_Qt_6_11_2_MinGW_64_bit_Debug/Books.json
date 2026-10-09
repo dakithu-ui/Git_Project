@@ -1,0 +1,55 @@
+{
+    "Books": [
+        {
+            "Author": "Long",
+            "Genre_List": [
+                "Fiction",
+                "Technology"
+            ],
+            "Name": "BookName",
+            "Released_Year": 1990,
+            "id": 0
+        },
+        {
+            "Author": "Long",
+            "Genre_List": [
+                "Fiction",
+                "Technology"
+            ],
+            "Name": "BookName",
+            "Released_Year": 1990,
+            "id": 1
+        }
+    ],
+    "Customers": [
+        {
+            "Account_Balance": 0.0,
+            "Customer_id": 0,
+            "IsVip": false,
+            "Name": "Long",
+            "Transaction_History": []
+        },
+        {
+            "Account_Balance": 0.0,
+            "Customer_id": 1,
+            "IsVip": false,
+            "Name": "Long",
+            "Transaction_History": [
+                0
+            ]
+        }
+    ],
+    "Data": {
+        "Total_Book": 2,
+        "Total_Customer": 2,
+        "Total_Transaction": 1
+    },
+    "Transactions": [
+        {
+            "Book_id": 1,
+            "Customer_id": 1,
+            "Transaction_id": 0,
+            "isReturned": false
+        }
+    ]
+}
